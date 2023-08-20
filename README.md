@@ -19,7 +19,7 @@ In this project, I've created a robust RESTful API for managing contacts. Levera
 
 ## Project Overview
 
-The project is structured to provide a seamless API experience. I've utilized Express to establish a server, handle routing, and execute various CRUD operations. To ensure smooth communication with the API, I've incorporated Thunder Client, a Visual Studio Code extension, for efficient testing.
+The project is structured to provide a seamless API experience. I've utilized Express to establish a server, handle routing, and execute various CRUD operations. To ensure smooth communication with the API.
 
 ## Features
 
@@ -65,9 +65,3 @@ The MongoDB database schema comprises two main components:
 
 - **Contacts**: Each contact contains essential information such as name, email, and phone number.
 - **Users**: User data includes username and securely stored hashed passwords.
-
-## Conclusion
-
-Through this project, I've not only gained a deeper understanding of Node.js, Express, MongoDB, and JWT but also developed a powerful API for contact management. The codebase is a testament to my expertise in backend development and creating robust RESTful APIs. Feel free to explore the code, use it as a learning resource, or even integrate it into your own projects.
-
-Thank you for checking out my Contact Management App API repository!
