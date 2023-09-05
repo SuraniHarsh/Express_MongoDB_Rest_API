@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "server.js", // Replace with your entry file
+        "use": "@vercel/node" // Use the Node.js builder
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/server.js" // Replace with your entry file
+      }
+    ]
+  }
+  
