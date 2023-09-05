@@ -1,16 +1,19 @@
 {
     "version": 2,
     "builds": [
-      {
-        "src": "server.js", // Replace with your entry file
-        "use": "@vercel/node" // Use the Node.js builder
-      }
+        {
+            "src": "server.js",
+            "use": "@vercel/node"
+        }
     ],
     "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/server.js" // Replace with your entry file
-      }
+        {
+            "src": "/api/v1/(.*)",
+            "dest": "server.js"
+        },
+        {
+            "src": "/(.*)",
+            "dest": "server.js"
+        }
     ]
-  }
-  
+}
